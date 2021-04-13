@@ -1,0 +1,105 @@
+* {
+    padding: 0px;
+    margin: 0;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.barra-superior {
+    background-color: rgba(116, 159, 252, 0.9);
+    box-shadow: 0 1px 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 150px;
+}
+
+.superior1 {
+    min-width: 200px;
+    max-width: 200px;
+    text-align: center;
+}
+
+.superior2 {
+    width: 100%;
+    text-align: center;
+}
+
+.superior3 {
+    display: flex;
+    text-align: center;
+    width: 400px;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+.superior3>a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+/* uso do > para selecionar somente a propriedade? */
+
+.container-principal {
+    display: flex;
+    border: 1px solid black;
+    height: 100%;
+    font-size: 18px;
+}
+
+.barra-lateral {
+    background-color: rgba(116, 159, 252, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    width: 300px;
+    padding: 30px;
+}
+
+.lista-sidenav {
+    margin-left: 30px;
+}
+
+.conteudo {
+    display: flex;
+    flex-flow: column wrap;
+    height: fit-content;
+    padding: 20px;
+    width: 100%;
+    overflow: auto;
+}
+
+/* STYLE BORDAS */
+
+.borda {
+    border: 1px solid black;
+}
+
+/* STYLE SOMBRAS */
+
+.sombra {
+    box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+.favoritos {
+    min-width: 250px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+/* CSS PAGINA BACK-END*/
